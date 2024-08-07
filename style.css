@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+}
+
+.picture {
+    height: 100vh;
+    width: 40%;
+    background-image: url("./images/coolDoor.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.rightSide {
+    height: 100%;
+    width: 60%;
+}
+
+.motto,
+.doThis {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 20%;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.50);
+    color: white;
+    gap: 32px;
+    position: absolute;
+    top: 20%;
+}
+
+img {
+    height: 80%;
+    width: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 75%;
+    width: 100%;
+    padding: 2vh;
+}
+
+.formBox {
+    box-shadow: 1px 2px 10px black;
+    background-color: white;
+}
+.form-container {
+    display: flex;
+    gap: 8vh;
+    width: 80%;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    padding: 2vh;
+    font-size: 32px;
+    justify-content: flex-end;
+}
+
+.formBox {
+    display: flex;
+    height: 30vh;
+}
+
+.bottom {
+    height: 27vh;
+    padding: 2vh;
+}
+
+input {
+    height: 4vh;
+    width: 32vh;
+    border-radius: 4px;
+    border: 2px solid lightgray;
+}
+
+.create-account {
+    height: 6vh;
+    width: 28vh;
+    background-color: lightblue;
+    border-radius: 8px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: aliceblue;
+}

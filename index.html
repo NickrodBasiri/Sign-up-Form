@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="picture">
+        <div class="logo">
+            <img src="images/odin-lined.png">
+            <h1>Sign-up</h1>
+        </div>
+    </div>
+    <div class="rightSide">
+        <div class="top">
+            <p class="motto">This is not a real online service! You know you need something like
+                this in your life to help you realize your deepest dreams. Sign up 
+                <em>now</em> to get started.
+            </p>
+            <p class="motto">You <em>know</em> you want to.</p>
+        </div>
+        <div class="formBox">
+            <form class="form" action="example" method="post">
+                <h1 class="doThis">Let's do this!</h1>
+                <div class="form-container">
+                    <div class="left">
+                        <div class="input">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" placeholder="John" name="first_name" required>
+                        </div>
+                        <div class="input">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="input">
+                            <label for="password">Password</label>
+                            <input type ="password" id="password" name="password" required>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="input">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" placeholder="Doe" name="last_name" required>
+                        </div>
+                        <div class="input">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="text" id="phone_number" name="phone_number" required>
+                        </div>
+                        <div class="input">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="bottom">
+            <button class="create-account" type="submit" form="form">Create Account</button>
+            <p>Already have an account? <a>Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
